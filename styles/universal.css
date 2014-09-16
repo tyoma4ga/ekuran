@@ -1,0 +1,99 @@
+/* UNIVERSAL 3 */
+/* END UNIVERSAL 3 */
+
+
+
+/* UNIVERSAL 4 */
+
+.universal4_title {
+    padding: 68px 0;
+}
+
+.universal4_title h1 {
+    text-align: center;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #1e3536;
+    padding-bottom: 32px;
+}
+
+.universal4_title h3 {
+    text-align: center;
+    text-transform: inherit;
+    font-weight: 100;
+    color: #7e7f7f;
+    padding-bottom: 42px;
+}
+
+.universal4_title .we_help_left {
+    float: left;
+    width: 440px;
+    min-height: 431px;
+    background: url("../images/univers_4_girl.png")no-repeat scroll center top transparent;
+}
+
+.universal4_title .we_help_right {
+    float: left;
+    width: 540px;
+}
+
+.universal4_title .we_help_right p {
+    color: #1e3435;
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+}
+
+.universal4_title .we_help_right ul li {
+    margin-bottom: 40px;
+    padding-left: 20px;
+    position: relative;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1e3435;
+    font-weight: 300;
+}
+
+.universal4_title .we_help_right ul li:before {
+    content: "\f00c";
+    font: normal normal normal 14px/1 FontAwesome;
+    position: absolute;
+    left: 0;
+    top: 6px;
+    font-size: 16px;
+    color: #e84c3d;
+}
+
+.universal4_title .we_help_right ul li a {
+    color: #e84c3d;
+    text-decoration: underline;
+}
+
+.review_wrapper {}
+
+.review_wrapper .inner_wrapper {
+    position: relative;
+    z-index: 9;
+    padding: 110px 0;
+}
+
+.review_wrapper .inner_wrapper:before,
+.review_wrapper .inner_wrapper:after {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    display: inline-block;
+    width: 670px;
+    height: 74px;
+    background: url("../images/review_delimiter.png")no-repeat scroll 0 0 / 680px 148px transparent;
+    top: 0;
+    left: 0;
+}
+
+.review_wrapper .inner_wrapper:after {
+    background-position: 0 -74px;
+    top: 100%;
+}
+
+/* END UNIVERSAL 4 */
